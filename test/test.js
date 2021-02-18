@@ -5,4 +5,5 @@ describe('GET /', function() {
  //navigate to root and check the the response is "hello SNE 20/21"
  request(app).get('/').expect('hello SNE 20/21', done);
  });
+return 0;
 });
