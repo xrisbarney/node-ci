@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh chris@192.168.122.30 /bin/bash <<EOF
+ssh ubuntu@192.168.122.30 /bin/bash <<EOF
  cd ~/node-ci
  git pull
  npm install -production
@@ -9,7 +9,7 @@ ssh chris@192.168.122.30 /bin/bash <<EOF
 EOF
 #!/bin/sh
 
-ssh chris@192.168.122.40 /bin/bash <<EOF
+ssh ubuntu@192.168.122.40 /bin/bash <<EOF
  cd ~/node-ci
  git pull
  npm install -production
